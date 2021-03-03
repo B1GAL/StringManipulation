@@ -13,17 +13,20 @@ namespace StringManipulation
 
             Console.WriteLine("What word would you like to look for in the above sentence?");
             string searchFor = Console.ReadLine();
-
+            string oldWord = "build";
+            string newWord = "create";
+            bool b = quote.Contains(oldWord);
             Console.WriteLine("What word would you like to replace it with?");
-            string ReplaceWord = Console.ReadLine();
+
+            Console.WriteLine();
 
 
 
 
-            Console.WriteLine($"Sorry, I could not find the word {ReplaceWord}");
+            Console.WriteLine($"Sorry, I could not find the word {searchFor}");
             
             
-
+            
 
 
 
