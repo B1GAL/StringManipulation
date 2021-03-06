@@ -17,8 +17,8 @@ namespace StringManipulation
             Console.WriteLine($"What word would you like to replace {searchFor} with?");
             string newWord = Console.ReadLine();
 
-            bool b = s1.Contains(searchFor);
-            if (b)
+            bool X = s1.Contains(searchFor);
+            if (X)
             {
                 Console.WriteLine(s1.Replace(searchFor, newWord));
             }
@@ -39,7 +39,7 @@ namespace StringManipulation
 
            
             
-            //bool b = s1.Contains(s1);
+            //bool b = s1.Contains(searchFor);
             //Console.WriteLine(b);
 
             //string newWord = "create";
